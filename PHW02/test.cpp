@@ -2,6 +2,21 @@
 #include"time.h"
 using namespace std;
 
+class matrix
+{
+    private:
+        int space;
+    public:
+        void initialSpace(int vertex);
+
+}
+
+void matrix::initialSpace(int vertex)
+{
+    space=vertex * vertex;
+    cout << "space=" << space;
+}
+
 int main()
 {
     int vertex, edge;
